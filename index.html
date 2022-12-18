@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
+  </head>
+  <body>
+  
+
+
+    <!--  NAV-BAR  -->
+
+    <nav id="navbar">
+        <h1 class="nav justify-content-center">Mantvydas Einikis</h1>
+        <ul class="nav justify-content-center" style="padding-bottom:3rem; padding-top:1rem;">
+            
+            
+            <li id="home" class="nav-item bg-secondary rounded">
+                <a href="./index.html" class="nav-link">Home</a>
+            </li>
+
+            <li id="home" class="nav-item bg-secondary rounded">
+              <a href="./bootstrap.html" class="nav-link">Bootstrap Features</a>
+          </li>
+
+
+            <li id="go-to" class="nav-item dropdown bg-secondary rounded">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Page Sections
+                </a>
+                <ul class="dropdown-menu bg-secondary">
+                  <li><a class="dropdown-item" href="#Section1">Academic Achievements</a></li>
+                  <li><a class="dropdown-item" href="#Section2">Work Experience</a></li>
+                  <li><a class="dropdown-item" href="#Section3">Project Interests</a></li>
+                  <li><a class="dropdown-item" href="#Section4">Hobbies</a></li>
+                </ul>
+        </ul>
+    </nav>
+
+
+    <!--  Hero Component  -->
+
+    <div class="container">
+
+        <p><img src="./images/CV-picture.png" alt="Mantvydas" style="float:right"></p>
+      <div>
+        <h1 data-aos="fade-right" data-aos-duration="500">Hello,</h1>
+        <h1 data-aos="fade-right" data-aos-duration="1000">My Name Is...</h1>
+        <h1 data-aos="fade-right" data-aos-duration="1500" id="name">Mantvydas</h1>
+
+        <h4>I am a student of IT Management at Technological University Dublin - Tallaght Campus <span class="badge bg-success"> 4th Year </span> </h4>
+      </div>
+
+        <h5 data-aos="zoom-out" id="follow">Contact me!</h5>
+
+            <!-- Button trigger modal -->
+
+        <button id="social-media" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Contacts
+        </button>
+
+            <!-- Modal -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modal">Links To Contacts</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            <div class="modal-body">
+              <a class="btn btn-primary" href="https://www.linkedin.com/in/mantvydas-einikis" role="button">LinkedIn</a>
+              <a class="btn btn-primary" href="https://www.instagram.com/mantvydase/" role="button">Instagram</a>
+
+            </div>
+            <div class="modal-body">
+              <h5>Email: einikis.mantvydas@gmail.com</h5>
+              <h5>Phone # 0858328579</h5>
+
+
+            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           </div>
+          </div>
+          </div>
+        </div>
+
+    </div>
+
+  <!--  To top button    -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    <!--   SECTION1 Academic Achievements   -->
+    
+    <div class="container" id="Section1">
+        <h1 id="academicAchievementstext">Academic Achievements</h1>
+
+
+        <!-- Year 1 Accordion -->
+      <div data-aos="zoom-in" class="shadow-lg p-3 mb-5 bg-secondary rounded">
+      <div class="row">
+        <div class="col-md-3">
+          <h3 id="modulestext">Modules & Grades</h3>
+          <div class="accordion" id="accordionPanels">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Year 1
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <table class="table table-bordered table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Module</th>
+                      <th scope="col">Grade</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr>
+
+                      <th scope="row">1</th>
+                      <td>Computer Architecture</td>
+                      <td>B-</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">2</th>
+                      <td>Critical Skills Development</td>
+                      <td>B+</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">3</th>
+                      <td>Business & Information Systems</td>
+                      <td>C+</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">4</th>
+                      <td>Discrete Mathematics</td>
+                      <td>B-</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">5</th>
+                      <td>Software Development</td>
+                      <td>B-</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">6</th>
+                      <td>Visual Design & User Experience</td>
+                      <td>B</td>
+
+                    </tr>
+
+                    <th scope="row">7</th>
+                    <td>Social Media Communications</td>
+                    <td>B</td>
+
+                  </tr>
+
+                  <tr>
+
+                    <th scope="row">8</th>
+                    <td>Database Fundamentals</td>
+                    <td>C</td>
+
+                  </tr>
+
+                  <tr>
+
+                    <th scope="row">9</th>
+                    <td>Operating Systems Fundamentals</td>
+                    <td>C+</td>
+
+                  </tr>
+
+                  <th scope="row">10</th>
+                  <td>Statistics</td>
+                  <td>D</td>
+
+                </tr>
+
+                <tr>
+
+                  <th scope="row">11</th>
+                  <td>Software Development 2</td>
+                  <td>C+</td>
+
+                </tr>
+
+                <tr>
+
+                  <th scope="row">12</th>
+                  <td>Object Oriented System Analysis</td>
+                  <td>C+</td>
+
+                </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          
+            
+          </div>
+
+          <!-- Year 2 Accordion -->
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Year 2
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <table class="table table-bordered table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Module</th>
+                      <th scope="col">Grade</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr>
+
+                      <th scope="row">1</th>
+                      <td>Routing & Switching Essentials</td>
+                      <td>B+</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">2</th>
+                      <td>Management Science</td>
+                      <td>B-</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">3</th>
+                      <td>IT Service Management</td>
+                      <td>D</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">4</th>
+                      <td>Database Admin & Analysis</td>
+                      <td>C</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">5</th>
+                      <td>Information Security</td>
+                      <td>C</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">6</th>
+                      <td>Project</td>
+                      <td>B-</td>
+
+                    </tr>
+
+                    <th scope="row">7</th>
+                    <td>IT Scripting and Automation</td>
+                    <td>C+</td>
+
+                  </tr>
+
+                  <tr>
+
+                    <th scope="row">8</th>
+                    <td>Software Quality Assurance & Testing</td>
+                    <td>B-</td>
+
+                  </tr>
+
+                  <tr>
+
+                    <th scope="row">9</th>
+                    <td>Network Fundamentals</td>
+                    <td>D</td>
+
+                  </tr>
+
+                  <th scope="row">10</th>
+                  <td>Advanced Database Technologies</td>
+                  <td>C</td>
+
+                </tr>
+
+                <tr>
+
+                  <th scope="row">11</th>
+                  <td>Discrete Mathematics 2</td>
+                  <td>C</td>
+
+                </tr>
+
+                <tr>
+
+                  <th scope="row">12</th>
+                  <td>Client-Side Web Development</td>
+                  <td>C</td>
+
+                </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Year 3 Accordion -->
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Year 3
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <table class="table table-bordered table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Module</th>
+                      <th scope="col">Grade</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr>
+
+                      <th scope="row">1</th>
+                      <td>Server-Side Web Development</td>
+                      <td>C</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">2</th>
+                      <td>Big Data Technologies</td>
+                      <td>B-</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">3</th>
+                      <td>Cloud Services & Distributed Computing</td>
+                      <td>C</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">4</th>
+                      <td>Operating Systems</td>
+                      <td>B-</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">5</th>
+                      <td>Advanced Routing & Switching</td>
+                      <td>C</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <th scope="row">6</th>
+                      <td>Innovation and Enterprise</td>
+                      <td>C</td>
+
+                    </tr>
+
+                    <th scope="row">7</th>
+                    <td>Experiential Learning</td>
+                    <td>Pass</td>
+
+                  </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Year 4 Accordion -->
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button id="accordion4"  class="accordion-button collapsed" disabled type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                Year 4 - In Progress
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+              <div class="accordion-body">
+                <table class="table table-bordered table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Module</th>
+                      <th scope="col">Grade</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr>
+
+                      <th scope="row">1</th>
+                      <td>INCOMPLETE</td>
+                      <td>INCOMPLETE</td>
+
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+        
+          
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+    
+
+<!-- Work Experience Section / Section 2 -->
+        
+    <div class="container" id="Section2">
+      <!-- Alert -->
+
+      <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <strong>Hey!</strong> Make sure to stay in touch via <a href="https://www.linkedin.com/in/mantvydas-einikis/" class="alert-link">LinkedIn</a> or <a href="https://www.instagram.com/mantvydase/" class="alert-link">Instagram</a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+        <h1 id="workexperiencetext">Work Experience</h1>
+       
+
+        <!--  Cards  -->
+
+    <div data-aos="zoom-in" class="shadow-lg p-3 mb-5 bg-secondary rounded">
+      <div class="row">
+        <div class="col-md-3">
+        <div id="datapaccard" class="card" style="width: 18rem;">
+          <img id="datapacimage" src="./images/datapac.jpg" class="card-img-top" alt="...">
+          <div id="card1" class="card-body">
+    
+            <p class="card-text">ICT Solutions & Services</p>
+          </div>
+          <ul id="card1list" class="list-group list-group-flush">
+            <li class="list-group-item">Technical Services Assistant</li>
+            <li class="list-group-item">2021 - 2022</li>
+            <li class="list-group-item">Hardware, Troubleshooting, Workflow Management</li>
+          </ul>
+          <div class="card-body">
+            <a id="datapacbutton" href="https://www.datapac.com/" class="btn btn-primary" >Datapac.com</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-3">
+
+        <h6 id="datapacDescription">In Datapac I was a part of the Workshop team in Dublin, working alongside The Workshop Manager Ed Power. Most of the work included hardware repairs and troubleshooting, as well as configuring brand new machines for well known private and public organisations.</h6>
+        <h6 id="datapacDescription">During My time with Datapac, I got to meet a lot of amazing people and work with them towards the company's goals.</h6>
+
+      </div>
+      
+      <div class="col-md-3">
+        <div id="specialolympicscard" class="card" style="width: 18rem;">
+          <img id="specialolympicsimage" src="./images/specialolympics.png" class="card-img-top" alt="...">
+          <div id="card1" class="card-body">
+    
+            <p class="card-text">Sporting Organisation</p>
+          </div>
+          <ul id="card1list" class="list-group list-group-flush">
+            <li class="list-group-item">Information Technology Support Analyst</li>
+            <li class="list-group-item">2022 - 2022</li>
+            <li class="list-group-item">IT Support, Asset Management, Troubleshooting</li>
+          </ul>
+          <div class="card-body">
+            <a id="datapacbutton" href="https://www.specialolympics.ie/" class="btn btn-primary">Special Olympics.ie</a>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="col-md-3">
+
+        <h6 id="datapacDescription">Datapac provides IT Support to organisations like Special Olympics Ireland, this is where I was placed for a period of time, to develop some new skills and expand my network.</h6>
+        <h6 id="datapacDescription">At Special Olympics Ireland, I got to work with Servers, remote into other machines and toubleshoot problems for the employees of Special Olympics Ireland. Also deployment of systems on physical machines on different sites was a great experience.</h6>
+
+      </div>
+
+      </div>
+      
+
+    </div>
+
+    
+
+    <!--   Project Interests / Section 3   -->
+
+    
+      <div data-aos="fade-right" class="container" id="Section3">
+
+        <div class="shadow-lg p-3 mb-5 bg-secondary rounded">
+          <h1 id="projectinteresth1">Project Interests</h1>
+  
+          <div class="row">
+  
+            <div class="col-md-3">
+  
+              <h4 id="packageh4">Package Management</h4>
+              <h6 id="projdesc">I am highly interested in System Administration. Troubleshooting, repairing and keeping up to date with the newest systems. Currently working on a project for package management. Package manager systems help automate tasks of administering software. Package manager systems manage dependencies, and it allows and provides methods of installing and managing those said dependencies. It finds the correct package, and also displays different versions of the package, so the correct one can then be installed, as well as the package manager checks for vulnerabilities. In the IT Industry they are used to download and manage 3rd party dependencies securely.</h6>
+  
+            </div>
+          
+  
+            <div class="col-md-3">
+  
+  
+              <h4 id="packageh4">Package Managers</h4>
+              <h6 id="projdesc"> Package Managers that I work with for my 4th year project are for both Windows and Linux Environments </h6>
+              <h6 id="projdesc"> The package managers include: Chocolatey, Winget, Apt, Dnf, RPM Package Manager </h6>
+            
+  
+              <div class="col-md-3">
+                <a id="projdesc"> <img id="chocolateyimg" src="./images/chocolatey.png"></a>
+              </div>
+              <div class="col-md-3">
+                <a id="projdesc"> <img id="wingetimg" src="./images/winget.jpg"></a>
+              </div>
+              <div class="col-md-3">
+                <a id="projdesc"> <img id="rpmimg" src="./images/rpm.png"></a>
+              </div>
+  
+            
+  
+  
+  
+            </div>
+          
+  
+  
+            <div class="col-md-3">
+  
+  
+              <h4 id="packageh4">Virtualization</h4>
+              <h6 id="projdesc"> I am also interested in virtualization. For example, if a small-medium sized business decides to virtualize their services (MS Exchange servers, Linux Development servers, Remote desktops for users) </h6>
+              <h6 id="projdesc"> This involves working with Type-1 (bare-metal) hypervisors. For example, a company has many different services on many different servers. This takes up space, and makes management of those services harder. To make it more manageable, the Type-1 hypervisor can host all of those services in the form of a virtual server.  </h6>
+            
+   
+            </div>
+  
+          </div>
+  
+        </div>
+        
+      </div>
+
+    
+
+    <!--  SECTION 4    -->
+      
+      <div class="container" id="Section4">
+        <h1 id="s4h1">Hobbies & Interests</h1>
+
+        <div data-aos="zoom-in-down" class="shadow-lg p-3 mb-5 bg-secondary rounded">
+
+          <div class="row">
+
+            <div class="col-md-3">
+
+              <h6 id="hobbyh6">One of my hobbies is driving and working on cars. I find it relaxing and educational, since we drive cars every day, and it raises a question "how do I fix one?"</h6>
+            
+
+            </div>
+
+            <div class="col-md-3">
+
+              <h6 id="hobbyh6">Another hobby of mine is cooking. I think it is a relaxing time to work with different intgredients, and learn different dishes from the many different cultures.</h6>
+              
+
+            </div>
+
+            <div class="col-md-3">
+
+              <h6 id="hobbyh6">Finally, I like reading books, usually anything that is educational and something that I can make use of in the real world.</h6>
+            
+
+            </div>
+
+
+          </div>
+          
+        </div>
+
+      </div>
+    
+    
+    
+
+    
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="myScript.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <footer id="footer">
+
+    </footer>
+
+  </body>
+</html>

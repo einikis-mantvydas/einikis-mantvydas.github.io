@@ -1,0 +1,462 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* BODY */
+
+body{
+    background-color: #494D5F;
+    width:auto;
+    height:auto;
+}
+
+
+/* NAV BAR #845BB3*/
+
+.nav a{
+    color: #E5EAF5;
+}
+
+
+h1{
+    color: #E5EAF5;
+    padding: 0.5rem;
+}
+
+#go-to{
+
+}
+
+#navbar{
+    padding: 1em;
+}
+/* Image and Description */
+
+.card{
+    color:white;
+}
+
+.dropdownmenu{
+    
+}
+
+#home{
+    margin-right:0.5em;
+}
+#socials{
+    margin-right:0.5em;
+}
+
+/*HERO Section*/
+
+
+#herotext{
+
+}
+
+#name{
+    color:#A0D2EB;
+}
+
+h4{
+  color: white;
+  margin-left:0.5em;
+}
+
+#follow{
+    color: white;
+    margin-left: 2em;
+    padding-top: 5em;
+}
+
+/*    MODAL      */
+
+#social-media{
+
+    margin-left: 2.5em;
+}
+
+#modal{
+    color:black;
+}
+
+
+
+/*               Section1            */
+
+#Section1{
+    height: 500px;
+    background: #494D5F;
+    
+    width: 100%;
+    margin-top:10em;
+    position: relative;
+
+}
+
+#academicAchievementstext{
+    color:#A0D2EB;
+}
+
+#modulestext{
+    color: white;
+    margin-left: 0.5em;
+    padding-bottom: 1em;
+    width: auto;
+}
+
+#accordionPanels{
+    margin-left:0.5em;
+    width:50em;
+}
+
+
+
+
+/*Accordion4*/
+#accordion4{
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+/*          Section2            */
+
+#Section2{
+    height: 1000px;
+    background: #494D5F;
+    
+    width: 100%;
+    padding-top:5em;
+    position: relative;
+}
+
+#workexperiencetext{
+    color:#A0D2EB;
+}
+
+
+#s2h3{
+    color: white;
+    margin-left:0.5em;
+}
+
+/*     CARDS     */
+
+
+#card1{
+    color:black
+}
+#datapacbutton{
+    margin-left:3.5em;
+}
+
+#datapaccard{
+
+    margin-top:2em;
+    flex-direction: column;
+
+}
+#datapacimage{
+    max-width: 100%;
+    height: auto;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+#specialolympicsimage{
+
+    max-width: 100%;
+    height: auto;
+    margin-top: 3.2em;
+    margin-bottom: 2em;
+    width:130px;
+    margin-left:4em;
+
+}
+
+#specialolympicscard{
+    margin-top:2em;
+    flex-direction: column;
+
+
+}
+
+#datapacDescription{
+    color: #E5EAF5;
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+
+/*              Section3            */
+
+#Section3{
+    height: 750px;
+    background: #494D5F;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    
+}
+
+#projectinteresth1{
+    color: #A0D2EB;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#projdesc{
+    color: #E5EAF5;
+    margin-left:1em;
+}
+
+#chocolateyimg{
+
+    width:8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left:2em;
+}
+
+#wingetimg{
+
+    width:8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left:2em;
+}
+
+#rpmimg{
+    
+    width:8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left:2em;
+}
+
+
+
+
+
+
+/*              Section4                */
+
+#Section4{
+    height: 300px;
+    background: #494D5F;
+    display: inline-block;
+    width: 100%;
+}
+
+#hobbiesh1{
+    color:white;
+}
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(228, 93, 93); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+#s4h1{
+    color: #A0D2EB;
+}
+
+#hobbyh6{
+    color:white;
+}
+
+
+
+
+
+
+/*      Bootstrap Features Page CSS        */
+
+
+/*    Feature 1      */
+
+#Feature1Section{
+    
+}
+
+#feature1h1{
+    color: #A0D2EB;
+}
+
+#feature1h6{
+    color: white;
+}
+
+#feature1snip{
+    width: 20em;
+}
+
+#feature1p{
+    color: white;
+}
+
+
+/*     Feature 2         */
+
+#Feature2Section{
+    
+}
+
+#feature2h1{
+    color: #A0D2EB;
+}
+
+#feature2h6{
+    color: white;
+}
+
+#feature2snip{
+    width: 20em;
+}
+
+#feature2p{
+    color: white;
+}
+
+
+/*     Feature 3         */
+
+#Feature3Section{
+    
+}
+
+#feature3h1{
+    color: #A0D2EB;
+}
+
+#feature3h6{
+    color: white;
+}
+
+#feature3snip{
+    width: 20em;
+}
+
+#feature3p{
+    color: white;
+}
+
+/*     Feature 4         */
+
+#Feature4Section{
+    
+}
+
+#feature4h1{
+    color: #A0D2EB;
+}
+
+#feature4h6{
+    color: white;
+}
+
+#feature4snip{
+    width: 20em;
+}
+
+#feature4p{
+    color: white;
+}
+
+
+/*     Feature 5        */
+
+#Feature5Section{
+    
+}
+
+#feature5h1{
+    color: #A0D2EB;
+}
+
+#feature5h6{
+    color: white;
+}
+
+#feature5snip{
+    width: 20em;
+}
+
+#feature5p{
+    color: white;
+}
+
+
+
+
+/*     Feature 6        */
+
+#Feature6Section{
+    
+}
+
+#feature6h1{
+    color: #A0D2EB;
+}
+
+#feature6h6{
+    color: white;
+}
+
+#feature6snip{
+    width: 30em;
+}
+
+#feature6p{
+    color: white;
+}
+
+
+
+/*     Feature 7        */
+
+#Feature7Section{
+    
+}
+
+#feature7h1{
+    color: #A0D2EB;
+}
+
+#feature7h6{
+    color: white;
+}
+
+#feature7snip{
+    width: 30em;
+}
+
+#feature7p{
+    color: white;
+}
+
+
+
